@@ -1,4 +1,4 @@
-import lang.stride.*;
+
 import java.io.*;
 
 /**
@@ -22,7 +22,7 @@ public class prueba
         BufferedReader teclado =  new  BufferedReader( new  InputStreamReader(System.in));
         System.out.println("Tamaño: ");
         int[] array =  new  int[10];
-        int[] arrays = {7, 7, 7, 7, 7, 7, 7, 7, 7, 7};
+        int[] arrays = {7, 7, 7, 7, 7, 7, 7, 7, 8, 7};
         x = 0;
         while (x < 10) {
             System.out.printf("\nValor %d: ", x + 1);
